@@ -1,0 +1,4 @@
+---
+# handlers file for aliases
+- name: aliases_update
+  ansible.builtin.shell: which newaliases && newaliases || true
