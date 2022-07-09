@@ -4,7 +4,7 @@ An ansible role for managing mail aliases.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-aliases/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-aliases/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-aliases/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-aliases)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/aliases)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/aliases)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-aliases/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-aliases/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-aliases/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-aliases)|[![quality](https://img.shields.io/ansible/quality/59666)](https://galaxy.ansible.com/buluma/aliases)|[![downloads](https://img.shields.io/ansible/role/d/59666)](https://galaxy.ansible.com/buluma/aliases)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -79,6 +79,8 @@ The minimum version of Ansible required is 2.1, tests have been done to:
 - The previous version.
 - The current version.
 - The development version.
+
+
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-aliases/issues)
 
