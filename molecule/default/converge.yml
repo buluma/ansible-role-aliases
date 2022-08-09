@@ -1,7 +1,6 @@
 ---
 - name: Converge
   hosts: all
-  tasks:
-    - name: "Include buluma.aliases"
-      ansible.builtin.include_role:
-        name: "buluma.aliases"
+
+  roles:
+    - role: ansible-role-aide

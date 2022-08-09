@@ -13,10 +13,9 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
 ---
 - name: Converge
   hosts: all
-  tasks:
-    - name: "Include buluma.aliases"
-      ansible.builtin.include_role:
-        name: "buluma.aliases"
+
+  roles:
+    - role: buluma.aide
 ```
 
 The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
