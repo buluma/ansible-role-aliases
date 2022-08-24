@@ -15,7 +15,7 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
   hosts: all
 
   roles:
-    - role: buluma.aide
+    - role: buluma.aliases
 ```
 
 The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
