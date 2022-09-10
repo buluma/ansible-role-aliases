@@ -1,6 +1,6 @@
 ---
 # tasks file for aliases
-- name: configure /etc/aliases
+- name: Configure /etc/aliases
   ansible.builtin.template:
     src: aliases.j2
     dest: /etc/aliases
