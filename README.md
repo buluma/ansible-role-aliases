@@ -1,14 +1,15 @@
-# [aliases](#aliases)
+# [Ansible role aliases](#aliases)
 
 An ansible role for managing mail aliases.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-aliases/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-aliases/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-aliases/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-aliases)|[![quality](https://img.shields.io/ansible/quality/59666)](https://galaxy.ansible.com/buluma/aliases)|[![downloads](https://img.shields.io/ansible/role/d/59666)](https://galaxy.ansible.com/buluma/aliases)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-aliases/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-aliases/actions/workflows/molecule.yml)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-aliases/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-aliases)|[![downloads](https://img.shields.io/ansible/role/d/4634)](https://galaxy.ansible.com/buluma/aliases)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
+This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-aliases/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
+
 ```yaml
 ---
 - name: Converge
@@ -18,7 +19,8 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
     - role: buluma.aliases
 ```
 
-The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
+The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-aliases/blob/master/molecule/default/prepare.yml):
+
 ```yaml
 ---
 - name: prepare
@@ -30,10 +32,12 @@ The machine needs to be prepared. In CI this is done using `molecule/default/pre
     - role: buluma.bootstrap
 ```
 
+Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
 ## [Role Variables](#role-variables)
 
-The default values for the variables are set in `defaults/main.yml`:
+The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-aliases/blob/master/defaults/main.yml):
+
 ```yaml
 ---
 # defaults file for aliases
@@ -44,15 +48,15 @@ aliases_list:
 
 ## [Requirements](#requirements)
 
-- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-aliases/blob/main/requirements.txt).
+- pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-aliases/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/buluma/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
@@ -68,18 +72,16 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|fedora|all|
-|ubuntu|all|
-|opensuse|all|
-|el|all|
+|[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
+|[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
+|[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|all|
 
 The minimum version of Ansible required is 2.1, tests have been done to:
 
 - The previous version.
 - The current version.
 - The development version.
-
-
 
 If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-aliases/issues)
 
@@ -89,8 +91,14 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-Apache-2.0
+[Apache-2.0](https://github.com/buluma/ansible-role-aliases/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
 [buluma](https://buluma.github.io/)
+
+Please consider [sponsoring me](https://github.com/sponsors/buluma).
+
+### [Special Thanks](#special-thanks)
+
+Template inspired by [Robert de Bock](https://github.com/robertdebock)
