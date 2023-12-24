@@ -1,10 +1,10 @@
-# [Ansible role aliases](#aliases)
+# Ansible role [aliases](https://galaxy.ansible.com/ui/standalone/roles/buluma/aliases/documentation)
 
 An ansible role for managing mail aliases.
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-aliases/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-aliases/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-aliases/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-aliases/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-aliases.svg)](https://github.com/buluma/ansible-role-aliases/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/aliases)](https://galaxy.ansible.com/ui/standalone/roles/buluma/aliases/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -77,7 +77,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|all|
 
-The minimum version of Ansible required is 2.1, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
@@ -91,13 +91,11 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-aliases/blob/master/LICENSE).
+[Apache-2.0](https://github.com/buluma/ansible-role-aliases/blob/master/LICENSE)
 
 ## [Author Information](#author-information)
 
-[buluma](https://buluma.github.io/)
+[Shadow Walker](https://buluma.github.io/)
 
-
-### [Special Thanks](#special-thanks)
 
 Template inspired by [Robert de Bock](https://github.com/robertdebock)
