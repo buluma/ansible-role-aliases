@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-aliases/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#8](https://github.com/buluma/ansible-role-aliases/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [0.3.0](https://github.com/buluma/ansible-role-aliases/tree/0.3.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.2.0...0.3.0)
+
 ## [0.2.0](https://github.com/buluma/ansible-role-aliases/tree/0.2.0) (2024-01-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.1.4...0.2.0)
