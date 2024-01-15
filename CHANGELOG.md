@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.5.0](https://github.com/buluma/ansible-role-aliases/tree/0.5.0) (2024-01-09)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.4.0...0.5.0)
+
 ## [0.4.0](https://github.com/buluma/ansible-role-aliases/tree/0.4.0) (2024-01-03)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.3.0...0.4.0)
