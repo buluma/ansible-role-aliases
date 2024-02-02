@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-aliases/tree/HEAD)
+## [0.6.0](https://github.com/buluma/ansible-role-aliases/tree/0.6.0) (2024-01-20)
 
-[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.5.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.5.0...0.6.0)
 
 **Merged pull requests:**
 
