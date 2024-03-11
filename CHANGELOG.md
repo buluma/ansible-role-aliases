@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-aliases/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#13](https://github.com/buluma/ansible-role-aliases/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.2.0](https://github.com/buluma/ansible-role-aliases/tree/24.2.0) (2024-02-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/0.6.0...24.2.0)
