@@ -5,7 +5,7 @@
   hosts: all
   gather_facts: false
   tasks:
-  - name: Verify
-    ansible.builtin.shell: which newaliases && newaliases || true
-    register: my_output
-    changed_when: my_output.rc != 0
+    - name: Verify
+      ansible.builtin.shell: which newaliases && newaliases || true
+      register: my_output
+      changed_when: my_output.rc != 0
