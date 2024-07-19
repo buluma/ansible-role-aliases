@@ -1,5 +1,9 @@
 # Changelog
 
+## [24.7.12](https://github.com/buluma/ansible-role-aliases/tree/24.7.12) (2024-07-12)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.3.31...24.7.12)
+
 ## [24.3.31](https://github.com/buluma/ansible-role-aliases/tree/24.3.31) (2024-03-31)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.2.0...24.3.31)
