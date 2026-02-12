@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-aliases/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.7.12...HEAD)
+
+**Closed issues:**
+
+- Update action [\#6](https://github.com/buluma/ansible-role-aliases/issues/6)
+- rebuild action [\#5](https://github.com/buluma/ansible-role-aliases/issues/5)
+
 ## [24.7.12](https://github.com/buluma/ansible-role-aliases/tree/24.7.12) (2024-07-12)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.3.31...24.7.12)
