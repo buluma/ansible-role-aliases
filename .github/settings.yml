@@ -5,4 +5,4 @@
 repository:
   description: An ansible role for managing mail aliases.
   homepage: https://buluma.github.io/
-  topics: aliases, ansible, molecule, tox, playbook
+  topics: aliases, ansible, molecule, playbook
