@@ -2,4 +2,4 @@
 # handlers file for aliases
 - name: Aliases_update
   ansible.builtin.shell: which newaliases && newaliases || true
-  changed_when:
+  changed_when: true

@@ -2,6 +2,23 @@
 
 ## [24.3.31](https://github.com/buluma/ansible-role-aliases/tree/24.3.31) (2024-03-31)
 
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.7.12...HEAD)
+
+**Closed issues:**
+
+- Update action [\#6](https://github.com/buluma/ansible-role-aliases/issues/6)
+- rebuild action [\#5](https://github.com/buluma/ansible-role-aliases/issues/5)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 4 to 6 [\#20](https://github.com/buluma/ansible-role-aliases/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [24.7.12](https://github.com/buluma/ansible-role-aliases/tree/24.7.12) (2024-07-12)
+
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.3.31...24.7.12)
+
+## [24.3.31](https://github.com/buluma/ansible-role-aliases/tree/24.3.31) (2024-03-31)
+
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.2.0...24.3.31)
 
 **Merged pull requests:**
