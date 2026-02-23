@@ -1,6 +1,5 @@
----
-- name: Converge
-  hosts: all
+  - name: Converge
+    hosts: all
 
-  roles:
-    - role: buluma.aliases
+    roles:
+      - role: buluma.aliases
