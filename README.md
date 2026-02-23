@@ -12,24 +12,24 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
+- name: Converge
+  hosts: all
 
-    roles:
-      - role: buluma.aliases
+  roles:
+  - role: buluma.aliases
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-aliases/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Prepare
+  hosts: all
+  become: true
+  gather_facts: false
 
-    roles:
-      - role: buluma.bootstrap
+  roles:
+  - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -42,8 +42,8 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 # defaults file for aliases
 aliases_list:
-  - user: postmaster
-    alias: root
+- user: postmaster
+  alias: root
 ```
 
 ## [Requirements](#requirements)
