@@ -42,8 +42,8 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 # defaults file for aliases
 aliases_list:
-- user: postmaster
-  alias: root
+  - user: postmaster
+    alias: root
 ```
 
 ## [Requirements](#requirements)
