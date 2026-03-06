@@ -1,6 +1,6 @@
 # Changelog
 
-## [24.3.31](https://github.com/buluma/ansible-role-aliases/tree/24.3.31) (2024-03-31)
+## [Unreleased](https://github.com/buluma/ansible-role-aliases/tree/HEAD)
 
 [Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.7.12...HEAD)
 
@@ -12,6 +12,7 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 4 to 6 [\#20](https://github.com/buluma/ansible-role-aliases/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#18](https://github.com/buluma/ansible-role-aliases/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.7.12](https://github.com/buluma/ansible-role-aliases/tree/24.7.12) (2024-07-12)
 
