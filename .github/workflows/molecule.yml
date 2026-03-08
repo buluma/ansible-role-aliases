@@ -10,12 +10,16 @@ on:
     branches:
       - master
       - main
+      - codex
+      - testing
   pull_request:
     branches:
       - master
       - main
+      - codex
+      - testing
   schedule:
-    - cron: "1 1 1 * *"
+    - cron: '1 1 1 * *'
 
   workflow_dispatch:
 
@@ -40,16 +44,12 @@ jobs:
       fail-fast: false
       matrix:
         distro:
-          - image: "docker-molecule-images"
-            tag: "fedora_latest"
-          - image: "docker-molecule-images"
-            tag: "fedora45"
-          - image: "docker-molecule-images"
-            tag: "ubuntu_latest"
-          - image: "docker-molecule-images"
+          - image: "fedora"
+            tag: "latest"
+          - image: "ubuntu"
+            tag: "latest"
+          - image: "ubuntu"
             tag: "jammy"
-          - image: "docker-molecule-images"
-            tag: "opensuse-tumbleweed"
           - image: "enterpriselinux"
             tag: "latest"
     steps:
