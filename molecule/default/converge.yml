@@ -3,4 +3,4 @@
   hosts: all
 
   roles:
-  - role: buluma.aliases
+    - role: buluma.aliases
