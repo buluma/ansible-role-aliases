@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-aliases/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-aliases/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.7.12...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-aliases/compare/24.7.12...26.6.0)
 
 **Closed issues:**
 
